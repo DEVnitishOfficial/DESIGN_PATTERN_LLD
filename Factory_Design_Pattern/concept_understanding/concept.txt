@@ -1,0 +1,13 @@
+## What is the Factory Design Pattern?
+
+**Core Concept:**
+
+* Factory Pattern is a way to create objects without exposing the creation logic to
+ the client. Instead of using new everywhere, you delegate object creation to a 
+ factory (a separate function or class).
+
+### Why use it?
+
+- To avoid writing `new` everywhere and hardcoding object types.
+- To **centralize object creation logic**.
+- To **easily switch or extend object types** in future without modifying client code.
